@@ -1,0 +1,61 @@
+body {
+  background-image: url(images/tile.jpg);
+}
+header {
+  height: 70px;
+}
+h1 {
+  font-family: Comic Sans MS;
+  text-align: center;
+  font-size: 40px;
+}
+main {
+  min-width: 90%;
+}
+.createtask {
+  display: flex;
+  justify-content: center;
+}
+.formtask {
+  border: black 1px solid;
+  margin-top: 20px;
+  width: 30%;
+  height: 200px;
+  background-image: url(images/Page.jpg);
+  background-size: 120%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.inputs {
+  margin-left: 20%;
+  margin-top: 15px;
+}
+.inputs textarea {
+  max-width: 90%;
+  background-color: transparent;
+  margin-top: -10px;
+}
+.buttons {
+  width: 60%;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.buttons button {
+  margin-left: 15px;
+  background-color: white;
+  border: black 1px solid;
+  border-radius: 15px;
+  width: 40%;
+}
+#clear {
+  background-color: tomato;
+}
+#addtask {
+  background-color: rgb(36, 233, 62);
+}
+
+#allNotes {
+  display: flex;
+  flex-wrap: wrap;
+}

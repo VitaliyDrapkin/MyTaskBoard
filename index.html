@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascipt"></script>
+  </head>
+  <body onload="restoreNote()">
+    <header>
+      <h1>My task board</h1>
+    </header>
+    <main>
+      <div class="createtask">
+        <div class="formtask">
+          <div class="inputs">
+            <textarea
+              name=""
+              id="taskText"
+              cols="35"
+              rows="6"
+              placeholder="Add task"
+            ></textarea>
+            <input id="taskDate" type="date" />
+            <input id="taskTime" type="time" />
+          </div>
+          <div class="buttons">
+            <button id="clear" onclick="onClear()">Clear</button>
+            <button id="addtask" onclick="onCreateNewNoteClicked()">
+              Add task
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="allNotes"></div>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
